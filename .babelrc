@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "env", {
+                "target": {
+                    "browers": ["last 2 versions"]
+                }
+            }
+        ],
+        "stage-2"
+    ],
+    "plugins": [
+        "syntax-dynamic-import",
+        "import",
+        "transform-runtime"
+    ]
+}
